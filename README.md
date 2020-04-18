@@ -1,6 +1,6 @@
 # mic_dachuang-utilities
 Utilities developed to tackle specific problems in one medical imaging "College student Innovation" program (Dachuang). 
-## Slice.py cuto1024.py 
+## Slice.py & cuto1024.py 
 Slice images of various resolution to 1024*1024px images, preserving bounding boxes that mostly fit into the picture.
 ## voc2coco.py 
 Convert PASCAL-VOC style annotations to MS COCO format.
