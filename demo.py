@@ -30,7 +30,7 @@ for img in tqdm(glob(picture + '/*.jpg')):
   # visualize the results in a new window
   show_result(img, result, model.CLASSES,0.3,0,False,output+fn)
   i=cv2.imread(output+fn)
-#读取json，画框
+#Read existing annotations and draw them out
   json_path=annotation+'/'+fn[:-4]+'.json'
   with open(json_path) as j:
     all=json.load(j)
