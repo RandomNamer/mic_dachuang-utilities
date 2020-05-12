@@ -10,8 +10,11 @@ f.flush()
 
 a=['sadwqdwe','dwqdwdw','qwddwadwdwqd','wdwdwdd','wdwdcasas','12','213','2212']
 print(a[-3:])
-'''
+
 a=input("in")
 
 if not a: print("void")
 else: print('err')
+'''
+a=[1,2,3,4]
+print(a[:3])
